@@ -9,7 +9,6 @@ body {
   background: #000 url(../images/pattern.png);
   color: #444;
   overflow-y: scroll;
-  zoom: 1.5;
 }
 
 h1 { 
@@ -283,5 +282,17 @@ ul#nav ul li a {
 ul#nav ul li a:hover { 
   color: #09BCE8;
   margin-right: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    zoom: 1.0;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  html {
+    zoom: 1.5;
+  }
 }
 
