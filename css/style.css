@@ -9,6 +9,7 @@ body {
   background: #000 url(../images/pattern.png);
   color: #444;
   overflow-y: scroll;
+  zoom: 1.5;
 }
 
 h1 { 
